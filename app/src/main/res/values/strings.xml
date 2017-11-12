@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tìm Phòng Trọ</string>
+    <string name="app_name1">Thông tin phòng trọ</string>
+    <string name="app_name2">Thông tin ở ghép</string>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tim_tro">Tìm trọ thật dễ!</string>
+    <string name="dang_o_ghep">Đăng tin ở ghép</string>
+    <string name="dang_cho_thue">Đăng tin cho thuê phòng</string>
+    <string name="bao_cao">Báo cáo sự cố</string>
+    <string name="tab_bao_cao">Báo cáo sự cố</string>
+    <string name="loi">Báo cáo lỗi</string>
+    <string name="lam_dung">Báo cáo lạm dụng</string>
+    <string name="google_maps_key">AIzaSyCSIVn8XJnyqwvPE0ZpqtNJKXFbYYNi1Uk</string>
+
+    //dùng cho đăng tin và ở ghép
+    <string name="ten">Tên:</string>
+    <string name="tuoi">Tuổi:</string>
+    <string name="sdt">SDT liên hệ:</string>
+    <string name="diachi">Địa chỉ trọ:</string>
+    <string name="gia">Giá phòng:</string>
+    <string name="dientich">Diện tích:</string>
+    <string name="gioitinh">Giới tính:</string>
+    <string name="thongtinphong">Thông tin phòng trọ:</string>
+
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <TextView
+        android:id="@+id/intro7"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Báo cáo lạm dụng"
+        />
+    <RelativeLayout
+        android:id="@+id/l7"
+        android:layout_below="@+id/intro7"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_item_main2"
+        />
+
+    <LinearLayout
+        android:id="@+id/l8"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l7">
+    <TextView
+        android:id="@+id/tvemail7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email của bạn:"/>
+    <EditText
+        android:id="@+id/edtmail7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvReview7"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/l8"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phản hồi của bạn: "
+        />
+    <EditText
+        android:id="@+id/edtReview7"
+        android:layout_below="@+id/tvReview7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btnGui7"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtReview7"
+        android:layout_marginTop="200dp"
+        android:text="Gửi phản hồi"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color2"
+        android:textColor="@color/color_white"
+        android:onClick="onClick"
+        />
+</RelativeLayout>

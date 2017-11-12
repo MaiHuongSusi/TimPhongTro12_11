@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tim_phong"
+            android:icon="@drawable/ic_menu_timtro"
+            android:title="Tìm phòng trọ" />
+        <item
+            android:id="@+id/tim_ghep"
+            android:icon="@drawable/ic_menu_timghep"
+            android:title="Tìm người ở ghép" />
+        <item
+            android:id="@+id/dang_cho_thue"
+            android:icon="@drawable/ic_menu_dangtinthue"
+            android:title="Đăng tin cho thuê" />
+        <item
+            android:id="@+id/dang_tim_ghep"
+            android:icon="@drawable/ic_menu_dangghep"
+            android:title="Đăng tin ở ghép" />
+        <item
+            android:id="@+id/bao_cao"
+            android:icon="@drawable/ic_menu_baocao"
+            android:title="Báo cáo" />
+    </group>
+
+
+
+</menu>

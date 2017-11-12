@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/intro6"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:text="Thông tin sự cố"
+        />
+    <RelativeLayout
+        android:id="@+id/l5"
+        android:layout_below="@+id/intro6"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_item_main2"
+        />
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l5">
+    <TextView
+        android:id="@+id/tvemail6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Email của bạn:"/>
+    <EditText
+        android:id="@+id/edtmail6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvReview6"
+        android:layout_below="@+id/l6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Phản hồi của bạn: "
+        />
+    <EditText
+        android:id="@+id/edtReview6"
+        android:layout_below="@+id/tvReview6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btnGui6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtReview6"
+        android:layout_marginTop="200dp"
+        android:text="Gửi phản hồi"
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color2"
+        android:textColor="@color/color_white"
+        />
+</RelativeLayout>

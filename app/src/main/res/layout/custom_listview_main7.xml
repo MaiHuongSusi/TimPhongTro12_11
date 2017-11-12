@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <ImageView
+        android:id="@+id/imgHoi7"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/hoi"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/tvLoi7"
+        android:layout_toRightOf="@+id/imgHoi7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"/>
+
+</RelativeLayout>
